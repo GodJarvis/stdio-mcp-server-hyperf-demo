@@ -29,7 +29,7 @@
         "sort-packages": true
     },
     "scripts": {
-        "mcp": "@php bin/mcp-server.php",
+        "mcp": "@php bin/hyperf.php mcp:serve",
         "test": "@php tests/protocol_test.php"
     }
 }
